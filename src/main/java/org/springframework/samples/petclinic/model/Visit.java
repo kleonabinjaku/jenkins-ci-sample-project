@@ -40,7 +40,7 @@ public class Visit extends BaseEntity {
      */
     @Column(name = "visit_date")
     @Type(type = "org.jadira.usertype.dateandtime.joda.PersistentDateTime")
-    @DateTimeFormat(pattern = "yyyy/MM/dd")
+    @DateTimeFormat(pattern = "yy/MM/dd")
     private DateTime date;
 
     /**
