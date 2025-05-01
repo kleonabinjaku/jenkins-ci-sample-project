@@ -420,21 +420,7 @@
 					<path>/petclinic</path>
 				</configuration>
 			</plugin>
-			 <plugin>
-		        <groupId>org.codehaus.mojo</groupId>
-		   
-		        <configuration>
-		        	<check/>
-		        </configuration>
-		        <executions>
-		          <execution>
-		            <goals>
-		              <goal>clean</goal>
-		              <goal>check</goal>
-		            </goals>
-		          </execution>
-		        </executions>
-         </plugin>
+			 
 		</plugins>
 	</build>
 		<reporting>
