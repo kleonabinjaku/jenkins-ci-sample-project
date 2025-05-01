@@ -442,16 +442,7 @@
 		<plugins>
 		 
 			<!--  integrate maven-cobertura-plugin to project site  -->
-			<plugin>
-				<groupId>org.codehaus.mojo</groupId>
-				<artifactId>cobertura-maven-plugin</artifactId>
-				<version>${cobertura.version}</version>
-				<configuration>
-					<formats>
-						<format>html</format>
-					</formats>
-				</configuration>
-			</plugin>
+		
 		</plugins>
 	</reporting>
 
